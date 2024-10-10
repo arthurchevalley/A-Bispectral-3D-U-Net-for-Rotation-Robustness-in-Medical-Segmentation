@@ -1,5 +1,6 @@
 Code for 3D bispectral nnUNet segmentation presented in _A Bispectral 3D U-Net for Rotation Robustness in Medical Segmentation_. 
-The data must be processed according to the nnUNet pipeline. The train/tests splits are available for both datasets but must be copied to the processed folder.
+The data must be processed according to the nnUNet pipeline and the [Medical Segmentation Decathlon
+](https://medicaldecathlon.com/). The train/tests splits are available for both datasets but must be copied to the processed folder.
 ![Results](output.png)
 WHen comparing the graphs, a typo can be seen in the paper as the bispectral UNet is slightly better than reported.
 
